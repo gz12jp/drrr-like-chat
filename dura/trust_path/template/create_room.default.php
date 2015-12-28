@@ -11,7 +11,7 @@
 <table>
 <tr>
 <td><?php e(t("Room Name")) ?></td>
-<td><input type="textbox" name="name" value="<?php echo $dura['input']['name'] ?>" size="20" maxlength="10" /></td>
+<td><input type="text" name="name" value="<?php echo $dura['input']['name'] ?>" size="20" maxlength="10" /></td>
 </tr>
 <tr>
 <td><?php e(t("Max Members")) ?></td>
