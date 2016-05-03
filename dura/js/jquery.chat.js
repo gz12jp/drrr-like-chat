@@ -733,10 +733,5 @@ jQuery(function($)
 		return isMSIE;
 	}
 
-	var dump = function($val)
-	{
-		talksElement.prepend($val);
-	}
-
 	construct();
 });
